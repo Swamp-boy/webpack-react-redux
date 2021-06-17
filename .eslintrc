@@ -1,0 +1,24 @@
+{
+	"plugins": ["fsd", "react"],
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+
+	"extends": ["plugin:fsd/all", "airbnb/base","plugin:react/recommended"],
+	"rules": {
+		"semi": "off",
+		"no-console": "off",
+		"no-plusplus": "off",
+		"eot-last": "off",
+		"camelcase": "off",
+		"linebreak-style": "off",
+		"class-methods-use-this":"off"
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+		  "jsx": true
+		}
+	}
+}
